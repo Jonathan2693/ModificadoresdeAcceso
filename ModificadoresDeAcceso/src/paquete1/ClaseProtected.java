@@ -1,14 +1,13 @@
 package paquete1;
 
-public class ClaseProtected {
+public class ClaseProtected {	//Solo clases que hereden, pueden acceder a los metodos y atributos de ClaseProtected, nunca de clases en misma jerarquia o superiores
 	private int edad;
 
-	public int getEdad() {
+	protected int getEdad() {
 		return this.edad;
 	}
 
-	public void setEdad(int edad) {
+	protected void setEdad(int edad) {
 		this.edad = edad;
 	}
-	
 }
